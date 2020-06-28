@@ -1,0 +1,203 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    height: 100%;
+    color: #585c5c;
+    font-family: cursive;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    height: 4rem;
+    background: white;
+    box-shadow: 0 6px 4px -4px rgba(17, 94, 215, 0.5);
+}
+
+main {
+    min-height: calc(100vh - 5rem);
+}
+footer {
+    border-top: #7cb3ee dotted;
+    height: 5rem;
+    background-color: #cadff5;
+}
+
+header .content {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #585c5c;
+    outline: none !important;
+}
+
+header .content a {
+    font-size: 1.5rem;
+}
+
+header .content a:hover {
+    color: rgba(17, 94, 215, 0.5);
+}
+
+.main_index {
+    display: flex;
+    justify-content: center;
+}
+
+.main_index .content {
+    width: 45%;
+}
+
+.message_card {
+    background-color: white;
+    border-radius: 26px 60px;
+    box-shadow: 0 0 8px rgba(17, 94, 215, 0.5);
+    padding: 40px;
+    margin-bottom: 2rem;
+}
+
+.message_card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-bottom: #7cb3ee dotted;
+}
+
+.message_card-header p:nth-child(2n)
+{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.message_card-footer {
+    text-align: right;
+}
+
+.login_card br {
+    margin-bottom: 1rem;
+}
+
+.login_card-header {
+    border-bottom: #7cb3ee dotted;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.main_login {
+    display: flex;
+    justify-content: center;
+}
+
+.main_login .content {
+    width: 20%;
+}
+
+.button {
+    outline: none !important;
+    background: rgba(17, 94, 215, 0.5);
+    font-family: cursive;
+    color: white;
+    font-weight: bold;
+    padding: .5rem 1rem .5rem 1rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.login_error {
+    text-align: center;
+}
+
+.create_message_item {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family: cursive;
+}
+
+textarea, input[type=text] {
+    padding: 7px 7px;
+    border: none;
+    font-family: cursive;
+    width: 100%;
+}
+
+.error_message {
+    text-align: center;
+}
+
+.empty_message_list {
+    text-align: center;
+}
+
+.message_header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: #7cb3ee dotted;
+}
+
+.pagination {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.pagination li {
+    margin-right: 0.1rem;
+}
+
+.pagination li a {
+    color: white;
+    font-weight: bold;
+    background: rgba(17, 94, 215, 0.5);
+    padding: .25rem .7rem;
+}
+
+.pagination li .active {
+    background: #bbbdbd;
+}
+
+.image_post {
+    display: flex;
+    justify-content: center;
+}
+
+.comment {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.comment_date {
+    text-align: right;
+    font-style: italic;
+}
+
+.comment_header {
+    font-weight: bold;
+    color: rgba(17, 94, 215, 0.5);
+    font-size: 1.2rem;
+}
+
+.comment_content {
+    font-size: 1.1rem;
+    margin: .5rem 0rem .5rem 0rem;
+}
+
+.comment_field {
+    padding: .5rem;
+    width: 100%;
+    margin: .5rem 0 .5rem 0;
+}
+
+.comment_label {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
